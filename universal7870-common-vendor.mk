@@ -46,10 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/keystore.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.exynos5.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/lights.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.exynos5.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos5.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/power.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.exynos5.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
