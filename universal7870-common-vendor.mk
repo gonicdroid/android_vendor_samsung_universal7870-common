@@ -114,8 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
-    vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.1_vendor.so \
+    vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
+    vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
+    vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/vndk-sp/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libion.so \
     vendor/samsung/universal7870-common/proprietary/vendor/lib/libion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion.so
