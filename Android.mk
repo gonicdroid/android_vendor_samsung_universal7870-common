@@ -47,5 +47,16 @@ LOCAL_POST_INSTALL_CMD := \
 	ln -sf egl/libGLES_mali.so $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libOpenCL.so.1.1
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := imsservice
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/system/priv-app/imsservice/imsservice.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
 
 endif

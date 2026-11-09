@@ -86,8 +86,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_delta_usacdma.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usacdma.bin \
     vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
-    vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin
+    vendor/samsung/universal7870-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libsec-ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ims.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libaresdns.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaresdns.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libcurl2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcurl2.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libmediarelayengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediarelayengine.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libresampler_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libresampler_ims.so \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/privapp-permissions-com.sec.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.sec.imsservice.xml
 
 PRODUCT_PACKAGES += \
     libril \
-    libGLES_mali
+    libGLES_mali \
+    imsservice
