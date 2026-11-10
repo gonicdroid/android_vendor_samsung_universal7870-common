@@ -92,6 +92,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/system/lib/libcurl2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcurl2.so \
     vendor/samsung/universal7870-common/proprietary/system/lib/libmediarelayengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediarelayengine.so \
     vendor/samsung/universal7870-common/proprietary/system/lib/libresampler_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libresampler_ims.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libSRTP.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSRTP.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libAudioTranscoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAudioTranscoder.so \
+    vendor/samsung/universal7870-common/proprietary/system/lib/libevs_float.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libevs_float.so \
+    vendor/samsung/universal7870-common/proprietary/system/framework/EpdgManager.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/EpdgManager.jar \
+    vendor/samsung/universal7870-common/proprietary/system/framework/imsmanager.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/imsmanager.jar \
+    vendor/samsung/universal7870-common/proprietary/system/framework/rcsopenapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/rcsopenapi.jar \
+    vendor/samsung/universal7870-common/proprietary/system/framework/svemanager.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/svemanager.jar \
+    vendor/samsung/universal7870-common/proprietary/system/framework/vsimmanager.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vsimmanager.jar \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/epdgmanager_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/epdgmanager_library.xml \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/imsmanager_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/imsmanager_library.xml \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/rcsopenapi_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsopenapi_library.xml \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/svemanager_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/svemanager_library.xml \
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/vsimservice_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vsimservice_library.xml \
     vendor/samsung/universal7870-common/proprietary/system/etc/permissions/privapp-permissions-com.sec.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.sec.imsservice.xml
 
 PRODUCT_PACKAGES += \
