@@ -105,7 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7870-common/proprietary/system/etc/permissions/rcsopenapi_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsopenapi_library.xml \
     vendor/samsung/universal7870-common/proprietary/system/etc/permissions/svemanager_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/svemanager_library.xml \
     vendor/samsung/universal7870-common/proprietary/system/etc/permissions/vsimservice_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vsimservice_library.xml \
-    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/privapp-permissions-com.sec.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.sec.imsservice.xml
+    vendor/samsung/universal7870-common/proprietary/system/etc/permissions/privapp-permissions-com.sec.imsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.sec.imsservice.xml \
+    vendor/samsung/universal7870-common/proprietary/system/bin/imsd:$(TARGET_COPY_OUT_SYSTEM)/bin/imsd \
+    vendor/samsung/universal7870-common/proprietary/system/etc/init/imsd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/imsd.rc
 
 PRODUCT_PACKAGES += \
     libril \
